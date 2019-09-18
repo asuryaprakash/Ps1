@@ -6,7 +6,7 @@ metadata:			# MANDATARY SECTION-III Of k8s, metadata of above 'kind' information
 
 spec:				# MANDATARY SECTION-IV  Of k8s,
   containers:
-    - name: nginx-container	# CONTAINER NAME GET CREATED INSIDE POD.
+    - name: nginx-container	# CONTAINER NAME GET CREATED INSIDE POD .
       image: nginx		# ABOVE CONTAINER SHOULD GET CREATED BY USING THIS IMAGE.
 
 #---------------------------------------------------------------#
